@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/example.css" type="text/css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <title>상현이의 Static Page</title>
+  </head>
+  <body>
+    <!-- Search "nav bar" -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">원상현</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/profile.php?id=100011127671343">facebook</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/Classic_won">instagram</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.naver.com">naver</a>
+        </li>
+    </div>
+    </nav>    
+    <br>
+
+<!-- Search "form"-->
+    <div class="container">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-5">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-5">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="submit2">Submit</label>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </div>
+
+        </form>
+        <br>
+        
+<!--Search "Jumbotron" -->
+        <div class="jumbotron">
+            <h3 class="display-6">LikeLion Blog</h3>
+            <hr class="my-3">
+            <p>안녕하세요, 이것은 모두 부트스트랩으로 만든 거에요.<br> 강민철님의 깃헙 코드를 가지고 변형해서 만든 static 웹페이지 입니다.:)</p>
+            <a class="btn btn-primary btn-sm" href="https://likelion.net/" role="button">멋사 공식 홈페이지 링크</a>
+        </div>
+
+    
+<!-- Search "Card" -->    
+<!-- 컴포넌트 나란히 배치하기 : Search "Grid System" -->
+
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <div class="card" style="width: 100%; padding:10px; ">
+                <img src="img1.jpg" class="card-img-top" alt="cloud">
+                <div class="card-body">
+                    <p class="card-text">훕스온 인터뷰 사진 <br>저 때로 돌아갔으면 융소를 안 했을 것입니다.</p>
+                </div>
+            </div> <br>
+        </div>
+
+        <div class="form-group col-md-4">
+            <div class="card" style="width: 75%; padding:10px;">
+                <img src="img2.jpg" class="card-img-top" alt="city">
+                <div class="card-body">
+                    <p class="card-text">홍대 이디야에서 찍은 소개팅 사진<br> 그 때 그분은 지금 무얼하고 계실까?</p>
+                </div>
+            </div> <br>
+        </div>
+
+        <div class="form-group col-md-4">
+            <div class="card" style="width: 80%; padding:10px;">
+                <img src="img3.jpg" class="card-img-top" alt="night-flower">
+                <div class="card-body">
+                    <p class="card-text">여권 사진<br> 다시 중국으로 돌아가고 싶다.</p>
+                </div>
+            </div> <br>
+        </div> 
+    </div>
+    </div>
+  </body>
+</html>
